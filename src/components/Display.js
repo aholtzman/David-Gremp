@@ -30,7 +30,7 @@ export default class Display extends Component {
   render() {
     return(
       <Div>
-        <MenuButton handleMouseDown={this.handleMouseDown}><img src={require('../images/assets/hamburger-icon.png')} alt='menu button' /></MenuButton>
+        <MenuButton handleMouseDown={this.handleMouseDown}>Menu</MenuButton>
         <SlideMenu
           visibleState={this.state.visible}
           handleMouseDown={this.handleMouseDown}

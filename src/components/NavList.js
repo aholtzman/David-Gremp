@@ -17,18 +17,18 @@ const Link = styled(NavLink)`
   line-height: 200%;
 
   &:hover {
-    color: green;
+    color: grey;
   }
 `
 
 const NavList = () => {
   return(
     <List>
-      <hr></hr>
+      <hr />
       <Link to='/Family-run'>Family Run</Link>
       <Link to='/Downstate'>Downstate</Link>
       <Link to='/Chicago7879'>Chicago 78/79</Link>
-      <hr></hr>
+      <hr />
       <Link to='/About'>About</Link>
     </List>
   );
