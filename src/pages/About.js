@@ -1,10 +1,12 @@
 import React from 'react';
 import TextWrap from '../components/TextWrap';
 import Footer from '../components/Footer'
+import Display from '../components/Display'
 
 const About = () => {
   return (
     <div>
+      <Display />
       <TextWrap>
         <h1>Bio & Recent Exhibitions</h1>
         <p>David has been actively involved with photography for more than 40 years. He received his M.A. from Southern Illinois University, Carbondale in 1978, and has taught photography classes at Prairie State College, Chicago Heights, IL, and Columbia College, Chicago, IL. He is currently an adjunct faculty member at Prairie State College. David served as an artist-in-residence with the Chicago Council on Fine Arts from September, 1978 to March, 1980. He received a humanities grant from the Rockefeller Foundation in 1980 and a completion grant from the Illinois Arts Council in 1982. He also worked as a writer and editor at Calumet Photographic Inc., Chicago, from 1981 through 2014. </p>

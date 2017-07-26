@@ -6,114 +6,114 @@ const data = [{
 },
 {
   id: 2,
-  name: "Picture 2",
-  image: require('../images/galleryDS/dgds2.jpg'),
-  orientation: "horizontal"
-},
-{
-  id: 3,
-  name: "Picture 3",
-  image: require('../images/galleryDS/dgds3.jpg'),
-  orientation: "horizontal"
-},
-{
-  id: 4,
-  name: "Picture 4",
-  image: require('../images/galleryDS/dgds4.jpg'),
-  orientation: "horizontal"
-},
-{
-  id: 5,
-  name: "Picture 5",
-  image: require('../images/galleryDS/dgds5.jpg'),
-  orientation: "horizontal"
-},
-{
-  id: 6,
-  name: "Picture 6",
-  image: require('../images/galleryDS/dgds6.jpg')
-},
-{
-  id: 7,
-  name: "Picture 7",
-  image: require('../images/galleryDS/dgds7.jpg'),
-  orientation: "horizontal"
-},
-{
-  id: 8,
-  name: "Picture 8",
-  image: require('../images/galleryDS/dgds8.jpg'),
-  orientation: "horizontal"
-},
-{
-  id: 9,
-  name: "Picture 9",
-  image: require('../images/galleryDS/dgds9.jpg')
-},
-{
-  id: 10,
-  name: "Picture 10",
-  image: require('../images/galleryDS/dgds10.jpg'),
-  orientation: "horizontal"
-},
-{
-  id: 11,
-  name: "Picture 11",
-  image: require('../images/galleryDS/dgds11.jpg'),
-  orientation: "horizontal"
-},
-{
-  id: 12,
-  name: "Picture 12",
+  name: "Three cheerleaders",
   image: require('../images/galleryDS/dgds12.jpg'),
   orientation: "horizontal"
 },
 {
-  id: 13,
-  name: "Picture 13",
+  id: 3,
+  name: "Boy with leather jacket in staircase",
+  image: require('../images/galleryDS/dgds11.jpg'),
+  orientation: "horizontal"
+},
+{
+  id: 4,
+  name: "Two girls with matching t-shirts",
   image: require('../images/galleryDS/dgds13.jpg'),
   orientation: "horizontal"
 },
 {
-  id: 14,
-  name: "Picture 14",
-  image: require('../images/galleryDS/dgds14.jpg')
+  id: 5,
+  name: "Couple with Chevelle",
+  image: require('../images/galleryDS/dgds14.jpg'),
 },
 {
-  id: 15,
-  name: "Picture 15",
+  id: 6,
+  name: "Couple at locker",
   image: require('../images/galleryDS/dgds15.jpg'),
   orientation: "horizontal"
 },
 {
-  id: 16,
-  name: "Picture 16",
+  id: 7,
+  name: "Girl on stairs",
   image: require('../images/galleryDS/dgds16.jpg'),
   orientation: "horizontal"
 },
 {
-  id: 17,
-  name: "Picture 17",
+  id: 8,
+  name: "Boy in front of locker with hand in pocket",
   image: require('../images/galleryDS/dgds17.jpg'),
   orientation: "horizontal"
 },
 {
-  id: 18,
-  name: "Picture 18",
+  id: 9,
+  name: "Girl at pommel horse",
   image: require('../images/galleryDS/dgds18.jpg'),
   orientation: "horizontal"
 },
 {
-  id: 19,
-  name: "Picture 19",
-  image: require('../images/galleryDS/dgds19.jpg'),
+  id: 10,
+  name: "Square dance couple posing",
+  image: require('../images/galleryDS/dgds23.jpg'),
   orientation: "horizontal"
 },
 {
-  id: 20,
-  name: "Picture 20",
+  id: 11,
+  name: "Man and woman dancing (with bra) Guy goosing girl with drunk husband",
+  image: require('../images/galleryDS/dgds24.jpg'),
+  orientation: "horizontal"
+},
+{
+  id: 12,
+  name: "Two women dancing",
   image: require('../images/galleryDS/dgds20.jpg'),
   orientation: "horizontal"
+},
+{
+  id: 13,
+  name: "Two cool cats (in front of ladies’ room)",
+  image: require('../images/galleryDS/dgds22.jpg'),
+  orientation: "horizontal"
+},
+{
+  id: 14,
+  name: "So. Ill. Barn (with deer)",
+  image: require('../images/galleryDS/dgds3.jpg'),
+  orientation: "horizontal"
+},
+{
+  id: 15,
+  name: "Girls on beach (with baseball mitts)",
+  image: require('../images/galleryDS/dgds4.jpg'),
+  orientation: "horizontal"
+},
+{
+  id: 16,
+  name: "Girls on beach blankets",
+  image: require('../images/galleryDS/dgds5.jpg'),
+  orientation: "horizontal"
+},
+{
+  id: 17,
+  name: "Brother and sister (neighbors)",
+  image: require('../images/galleryDS/dgds7.jpg'),
+  orientation: "horizontal"
+},
+{
+  id: 18,
+  name: "Man working in cemetery ",
+  image: require('../images/galleryDS/dgds8.jpg'),
+  orientation: "horizontal"
+},
+{
+  id: 19,
+  name: "Boy with foldout",
+  image: require('../images/galleryDS/dgds6.jpg')
+},
+{
+  id: 20,
+  name: "Bernie with Mustang",
+  image: require('../images/galleryDS/dgds9.jpg')
 }
 ];
 

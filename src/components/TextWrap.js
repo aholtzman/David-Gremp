@@ -4,6 +4,8 @@ const TextWrap = styled.div`
   padding-right: 50px;
   padding-left: 50px;
   padding-bottom: 40px;
+  max-width: 900px;
+  margin: auto;
 
   p {
     line-height: 150%;

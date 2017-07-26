@@ -102,6 +102,11 @@ image: require('../images/gallery7879/101.jpg')
   id: 21,
   name: "Goldblatts, Uptown",
   image: require('../images/gallery7879/DGR.040.jpg')
+},
+{
+  id: 22,
+  name: "Man in Garden, Hyde park",
+  image: require('../images/gallery7879/104.jpg')
 }
 ];
 

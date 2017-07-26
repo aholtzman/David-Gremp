@@ -1,6 +1,7 @@
 import React from 'react';
 import TextWrap from '../components/TextWrap'
-import styled from 'styled-components';
+import styled from 'styled-components'
+import Display from '../components/Display'
 
 const HomeImage = styled.div`
   display: flex;
@@ -22,6 +23,7 @@ const HomeImage = styled.div`
 
 const Home = () => (
   <div>
+    <Display />
     <TextWrap>
       <HomeImage>
         <img src={require('../images/gallery7879/DGR.028.jpg')} alt='Two brothers outside of library, Austin'></img>
