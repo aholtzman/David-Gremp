@@ -2,12 +2,11 @@ import React from 'react'
 import TextWrap from '../components/TextWrap'
 import PhotoGallery from '../components/PhotoGallery'
 import data from '../images/7879_data'
-import Footer from '../components/Footer'
-import Display from '../components/Display'
+import NavBar from '../components/NavBar'
 
 const Gallery1 = () => (
   <div>
-    <Display />
+  <NavBar />
     <TextWrap>
       <h1>Chicago 78/79</h1>
       <p>These photographs were made between 1978 and 1979 in various Chicago neighborhoods while working as an artist-in-residence with the Chicago Council on Fine Arts. Selections of this work have been exhibited at Alibi Fine Art (“Chicago 78/79”, June 2013 and the Harold Washington Library in Chicago (“Straight Into the Camera”, December 2015 – May 2016).</p>
@@ -18,7 +17,6 @@ const Gallery1 = () => (
       <hr></hr>
     </TextWrap>
     <PhotoGallery data={data} />
-    <Footer />
   </div>
 )
 

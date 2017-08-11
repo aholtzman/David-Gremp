@@ -6,25 +6,27 @@ const NavButtons = styled(NavLink)`
   text-decoration: none;
   color: #F5F5F5;
   font-size: 30px;
-  padding: 10px;
 
   &:hover {
     color: grey;
   }
-
 `
-const NavArea = styled.div`
-  display: flex;
-  justify-content: space-around;
-  background: #2b1d0e;
-
+const Brand = styled.div`
+  border-bottom: 1px solid dimgrey;
+  background-color: rgba(0, 0, 0, .8);
+  text-align: center;
+  height: 50px;
+  position: fixed;
+  padding-top: 8px;
+  top: 0;
+  width: 100%;
 `
 
 const NavBar = () => {
   return (
-    <NavArea>
+    <Brand>
     <NavButtons to='/'>David Gremp</NavButtons>
-    </NavArea>
+    </Brand>
   )
 }
 export default NavBar

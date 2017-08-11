@@ -1,35 +1,27 @@
 import React from 'react';
-import TextWrap from '../components/TextWrap'
 import styled from 'styled-components'
-import Display from '../components/Display'
+import NavList from '../components/NavList'
+import NavBar from '../components/NavBar'
 
-const HomeImage = styled.div`
-  display: flex;
-  justify-content: center;
-  padding-top: 50px;
+const Background = styled.div`
+  background: url(${require('../images/galleryFR/bg.jpg')}) no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr 20px;
+  grid-templete-rows: 1fr 3fr 1fr;
 
-  img {
-    border: 1px solid grey;
-  }
-
-  @media (max-width: 700px) {
-      img {
-      width: 80%;
-      height: 80%;
-      }
-    }
+  @media (max-width: 850px) {
+    background: url(${require('../images/galleryFR/bg2.jpg')}) no-repeat center;
+    grid-template-columns: 1fr 3fr 1fr;
   }
 `
 
 const Home = () => (
-  <div>
-    <Display />
-    <TextWrap>
-      <HomeImage>
-        <img src={require('../images/gallery7879/DGR.028.jpg')} alt='Two brothers outside of library, Austin'></img>
-      </HomeImage>
-    </TextWrap>
-  </div>
+  <Background>
+    <NavBar />
+    <NavList />
+  </Background>
 )
 
 export default Home

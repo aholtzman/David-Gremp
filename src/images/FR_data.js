@@ -6,17 +6,20 @@ const data = [{
 {
   id: 2,
   name: "Busalacki Produce Stand, St. Louis, Missouri",
-  image: require('../images/galleryFR/fr2.jpg')
+  image: require('../images/galleryFR/fr2.jpg'),
+  orientation: "horizontal"
 },
 {
   id: 3,
   name: "Heurich Jewelry, Chicago, Illinois",
-  image: require('../images/galleryFR/fr12.jpg')
+  image: require('../images/galleryFR/fr12.jpg'),
+  orientation: "horizontal"
 },
 {
   id: 4,
   name: "Carruth Dairy Farm, Danvers, Minnesota",
-  image: require('../images/galleryFR/fr4.jpg')
+  image: require('../images/galleryFR/fr4.jpg'),
+  orientation: "horizontal"
 },
 {
   id: 5,
@@ -31,32 +34,38 @@ const data = [{
 {
   id: 7,
   name: "Dog Motel, Desoto, Illinois",
-  image: require('../images/galleryFR/fr7.jpg')
+  image: require('../images/galleryFR/fr7.jpg'),
+  orientation: "horizontal"
 },
 {
   id: 8,
   name: "Dr. Blumer’s, Chicago, Illinois",
-  image: require('../images/galleryFR/fr8.jpg')
+  image: require('../images/galleryFR/fr8.jpg'),
+  orientation: "horizontal"
 },
 {
   id: 9,
   name: "Frandeka Fish Market, St. Louis, Missouri",
-  image: require('../images/galleryFR/fr9.jpg')
+  image: require('../images/galleryFR/fr9.jpg'),
+  orientation: "horizontal"
 },
 {
   id: 10,
   name: "Gold Coast Bait Farm, Bandon, Oregon",
-  image: require('../images/galleryFR/fr10.jpg')
+  image: require('../images/galleryFR/fr10.jpg'),
+  orientation: "horizontal"
 },
 {
   id: 11,
   name: "Hair Factory, Chicago, Illinois",
-  image: require('../images/galleryFR/fr11.jpg')
+  image: require('../images/galleryFR/fr11.jpg'),
+  orientation: "horizontal"
 },
 {
   id: 12,
   name: "Beasley’s Tavern, Murphysboro, Illinois",
-  image: require('../images/galleryFR/fr1.jpg')
+  image: require('../images/galleryFR/fr1.jpg'),
+  orientation: "horizontal"
 },
 {
   id: 13,
@@ -66,7 +75,8 @@ const data = [{
 {
   id: 14,
   name: "Howard Gayle & Son, Scottsdale, Arizona",
-  image: require('../images/galleryFR/fr14.jpg')
+  image: require('../images/galleryFR/fr14.jpg'),
+  orientation: "horizontal"
 },
 {
   id: 15,
@@ -76,17 +86,20 @@ const data = [{
 {
   id: 16,
   name: "Lepage’s Dairy, Lewiston, Maine",
-  image: require('../images/galleryFR/fr16.jpg')
+  image: require('../images/galleryFR/fr16.jpg'),
+  orientation: "horizontal"
 },
 {
   id: 17,
   name: "Nostalgia Shop, Chicago, Illinois",
-  image: require('../images/galleryFR/fr3.jpg')
+  image: require('../images/galleryFR/fr3.jpg'),
+  orientation: "horizontal"
 },
 {
   id: 18,
   name: "Kate & Mark Winter, Colp, Illinois",
-  image: require('../images/galleryFR/fr18.jpg')
+  image: require('../images/galleryFR/fr18.jpg'),
+  orientation: "horizontal"
 },
 {
   id: 19,
@@ -96,27 +109,32 @@ const data = [{
 {
   id: 20,
   name: "North End Shipyard, Rockland, Maine",
-  image: require('../images/galleryFR/fr20.jpg')
+  image: require('../images/galleryFR/fr20.jpg'),
+  orientation: "horizontal"
 },
 {
   id: 21,
   name: "Pin Oaks Motel, Carterville, Illinois",
-  image: require('../images/galleryFR/101.jpg')
+  image: require('../images/galleryFR/101.jpg'),
+  orientation: "horizontal"
 },
 {
   id: 22,
   name: "Ward’s Lumber & Wood, Bethel, Vermont",
-  image: require('../images/galleryFR/wardslumberjpeg.jpg')
+  image: require('../images/galleryFR/wardslumberjpeg.jpg'),
+  orientation: "horizontal"
 },
 {
   id: 23,
   name: "Rodriquez & Maraden Aerial Acts, Minnesota State Fair",
-  image: require('../images/galleryFR/100.jpg')
+  image: require('../images/galleryFR/100.jpg'),
+  orientation: "horizontal"
 },
 {
   id: 24,
   name: "Herrin Cleaners, Herrin, Illinois",
-  image: require('../images/galleryFR/102.jpg')
+  image: require('../images/galleryFR/102.jpg'),
+  orientation: "horizontal"
 }
 ];
 

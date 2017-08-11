@@ -112,7 +112,7 @@ const data = [{
 },
 {
   id: 20,
-  name: "Bernie with Mustang",
+  name: "Barney with Mustang",
   image: require('../images/galleryDS/dgds9.jpg')
 }
 ];

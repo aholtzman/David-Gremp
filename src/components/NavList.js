@@ -7,7 +7,18 @@ const List = styled.div`
   display: flex;
   flex-direction: column;
   padding: 20px;
-  width: 350px;
+  width: 250px;
+  height: 400px;
+  background-color: rgba(0, 0, 0, .7);
+  border: 1px solid dimgrey;
+  grid-column-start: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  justify-self: center;
+
+  @media (max-width: 850px) {
+    grid-column-start: 2;
+  }
 `
 
 const Link = styled(NavLink)`
@@ -21,14 +32,24 @@ const Link = styled(NavLink)`
   }
 `
 
+const GalleryList = styled.div`
+  width: 200px;
+  border-bottom: 1px solid dimgrey;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+`
+
 const NavList = () => {
   return(
     <List>
-      <hr />
+    <GalleryList>
       <Link to='/Family-run'>Family Run</Link>
       <Link to='/Downstate'>Downstate</Link>
       <Link to='/Chicago7879'>Chicago 78/79</Link>
-      <hr />
+    </GalleryList>
       <Link to='/About'>About</Link>
     </List>
   );
