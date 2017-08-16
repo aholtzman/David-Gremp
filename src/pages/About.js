@@ -7,9 +7,8 @@ const About = () => {
     <div>
       <NavBar />
       <TextWrap>
-        <h1>Bio & Recent Exhibitions</h1>
+        <h1>Bio, Exhibitions & Publications</h1>
         <p>David has been actively involved with photography for more than 40 years. He received his M.A. from Southern Illinois University, Carbondale in 1978, and has taught photography classes at Prairie State College, Chicago Heights, IL, and Columbia College, Chicago, IL. He is currently an adjunct faculty member at Prairie State College. David served as an artist-in-residence with the Chicago Council on Fine Arts from September, 1978 to March, 1980. He received a humanities grant from the Rockefeller Foundation in 1980 and a completion grant from the Illinois Arts Council in 1982. He also worked as a writer and editor at Calumet Photographic Inc., Chicago, from 1981 through 2014. </p>
-        <p>David’s photographs have been exhibited most recently at Alibi Fine Art Gallery, Chicago, IL (“Family Run”, January, 2011; “Chicago 78/79”,June, 2013 and “Down State”, January 2016), Prairie State College, Chicago Heights, IL (January, 2012), Calumet Photographic Gallery, Chicago, IL (October, 2013) and the Harold Washington Library in Chicago (“Straight Into the Camera”, December 2015 – May 2016).</p>
         <br></br>
         <p>
           <hr></hr>
@@ -73,9 +72,15 @@ const About = () => {
           October 12 – December 1, 1984<br></br>
           <br></br>
           <strong>NAB Gallery</strong><br></br>
+          Chicago, IL<br></br>
           "Family Business" Solo Exhibit<br></br>
           Fall, 1981<br></br>
           <br></br>
+          "Cowboys and Indians" Invitational Group Theme Show<br></br>
+          1979<br></br>
+          <br></br>
+          "Dog Motel" Invitational Group Theme Show<br></br>
+          1977<br></br><br></br>
           <strong>John Hancock Center</strong><br></br>
           Chicago, IL<br></br>
           "A Celebration of the Human Family"<br></br>
@@ -111,10 +116,6 @@ const About = () => {
           "Artist-In-Residence Photography Exhibit"<br></br>
           August, 1979<br></br>
           <br></br>
-          <strong>Invitational Group Theme Show</strong><br></br>
-          "Cowboys and Indians"<br></br>
-          1979<br></br>
-          <br></br>
           <strong>Coos Art Museum</strong><br></br>
           Coos Bay, OR<br></br>
           "4th Annual Juried Photographic Exhibition"<br></br>
@@ -148,10 +149,6 @@ const About = () => {
           Jurors: Charles Swedlund, Joseph Jachna<br></br>
           2nd Place Award<br></br>
           September, 1977<br></br><br></br>
-          <strong>Invitational Group Theme Show</strong><br></br>
-          Chicago, IL<br></br>
-          "Dog Motel"<br></br>
-          1977<br></br>
           <br></br>
           <br></br>
 

@@ -80,7 +80,7 @@ const data = [{
 },
 {
   id: 17,
-  name: "Couple painting stairs, Little Village",
+  name: "Couple painting railings, Little Village",
   image: require('../images/gallery7879/102.jpg')
 },
 {
@@ -95,7 +95,7 @@ const data = [{
 },
 {
   id: 20,
-  name: "Sign in front of house, Pullman (?)",
+  name: "Sign in front of house, Pullman",
 image: require('../images/gallery7879/101.jpg')
 },
 {
@@ -105,7 +105,7 @@ image: require('../images/gallery7879/101.jpg')
 },
 {
   id: 22,
-  name: "Man in Garden, Hyde park",
+  name: "Garden garden, Hyde park",
   image: require('../images/gallery7879/104.jpg')
 }
 ];
