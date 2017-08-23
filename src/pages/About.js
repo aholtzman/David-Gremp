@@ -8,16 +8,13 @@ const Intro = styled.div`
 
   @media (max-width: 850px) {
     flex-direction: column;
+    align-items: center
   }
 `
 
 const Image = styled.div`
   padding-top: 25px;
   padding-left: 30px;
-
-  @media (max-width: 850px) {
-    margin: auto;
-  }
 `
 
 const About = () => {
