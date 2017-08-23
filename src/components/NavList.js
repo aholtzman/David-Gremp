@@ -49,6 +49,7 @@ const NavList = () => {
       <Link to='/Family-run'>Family Run</Link>
       <Link to='/Downstate'>Downstate</Link>
       <Link to='/Chicago7879'>Chicago 78/79</Link>
+      <Link to='/CruiseControl'>Cruise Control</Link>
     </GalleryList>
       <Link to='/About'>About</Link>
     </List>

@@ -105,7 +105,7 @@ image: require('../images/gallery7879/101.jpg')
 },
 {
   id: 22,
-  name: "Garden garden, Hyde park",
+  name: "Man in garden, Hyde park",
   image: require('../images/gallery7879/104.jpg')
 }
 ];
