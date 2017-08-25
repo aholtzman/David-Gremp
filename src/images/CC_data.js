@@ -71,7 +71,7 @@ const data = [{
   },
   {
   id: 15,
-  name: "Bent Tree &amp; Woman, Venice",
+  name: "Bent Tree & Woman, Venice",
   image: require('../images/CC/cc15.jpg')
   },
   {

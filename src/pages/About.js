@@ -15,6 +15,10 @@ const Intro = styled.div`
 const Image = styled.div`
   padding-top: 25px;
   padding-left: 30px;
+
+  @media (max-width: 850px) {
+    padding-left: 0px;
+  }
 `
 
 const About = () => {
